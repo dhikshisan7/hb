@@ -1,0 +1,12 @@
+body {
+    background-color: #FFFFCC;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .card {
+    border-radius: 10px;
+  }
+  
+  .text-primary {
+    color: #d2691e !important;
+  }
