@@ -1,0 +1,105 @@
+.navbar-nav{
+    font-size: 1.2rem;
+}
+
+.nav-link{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.navbar{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.nav-link:focus, .nav-link:active{
+    border-bottom: 2px solid white   
+}  
+
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.banner{
+    background-color: #FFFFCC;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 200px 0;
+}
+footer {
+    background-color: rgb(248, 131, 157);
+    color: #5d4037;
+    text-align: center;
+    padding: 10px;
+}
+#MENU {
+    background-color: #f8f9fa; /* Light background for contrast */
+    padding: 60px 20px;
+}
+
+#MENU h2 {
+    font-family: 'Pacifico', cursive;
+    color: #5d4037;
+    margin-bottom: 20px;
+}
+
+#MENU p {
+    font-size: 16px;
+    color: #5d4037;
+}
+
+
+.category-btn {
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    color: #5d4037;
+    border-color: #5d4037;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.category-btn:hover {
+    background-color: #5d4037;
+    color: #ffffff;
+}
+
+
+.card {
+    border: none;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    
+    transform: scale(1.05);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+    width: 100% !important;
+    height: 200px !important; 
+    object-fit: cover !important;
+    border-radius: 5px !important;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #5d4037;
+}
+
+/* Add spacing between rows */
+#menu-items .col-md-4 {
+    margin-bottom: 20px;
+}
+#ABOUT .row {
+    display: flex;
+    align-items: center; /* Ensures vertical alignment */
+}
+
+#ABOUT img {
+    max-width: 100%; /* Ensures the image doesn't overflow */
+    height: auto; /* Maintains aspect ratio */
+    border-radius: 10px; /* Optional: adds rounded edges */
+}
